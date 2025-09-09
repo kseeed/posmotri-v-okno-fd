@@ -72,6 +72,10 @@ ol {
   margin: 333px 390px;
 }
 
+.result {
+  margin-left: -10px;
+  margin-bottom: 5px;
+}
 .result__video-container {
   margin-bottom: 16px;
   width: 100%;
@@ -104,6 +108,7 @@ ol {
 .search-form__fieldset-title {
   font-weight: 400;
   margin-bottom: 5px;
+  font-size: inherit;
 }
 
 .search-form__checkbox-list {
@@ -182,6 +187,7 @@ ol {
   color: #FFF;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
+  font-size: inherit;
   background-color: transparent;
   border: 1px solid #FFF;
   padding-top: 6px;
