@@ -74,7 +74,7 @@ ol {
 
 .result {
   margin-left: -10px;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 .result__video-container {
   margin-bottom: 16px;
@@ -226,6 +226,7 @@ ol {
   gap: 26px;
   width: 100%;
   height: 100%;
+  margin-top: 8px;
 }
 
 .title {
@@ -241,22 +242,26 @@ ol {
 }
 
 .content__list-container {
-  height: 300px;
+  width: 100%;
+  height: 298px;
   overflow: hidden scroll;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-top: -2px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 100%;
 }
 
 .content__list-item {
   padding-left: 3px;
   padding-right: 3px;
+  width: 100%;
 }
 
 .content__card-link {
@@ -293,6 +298,7 @@ ol {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  width: 100%;
 }
 
 .content__video-card-description-container {
