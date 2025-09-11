@@ -68,7 +68,6 @@ ol {
   grid-template-columns: 711px 399px;
   place-items: end;
   gap: 30px;
-  inline-size: 1140px;
 }
 
 .result__video-container {
